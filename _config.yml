@@ -1,0 +1,33 @@
+# Jekyll configuration for GitHub Pages
+
+# Site name
+name: "Campus Dine"
+
+# Base URL
+baseurl: ""
+
+# Description
+description: "A dining service for campus"
+
+# Author
+author:
+  name: "Campus Dine Team"
+  email: "info@campusdine.com"
+
+# Markdown converter
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Theme
+theme: minima
+
+# Content Security Policy
+csp:
+  default-src: ["'self'" , "https://example.com"]
+  img-src: ["'self'", "data:", "https://images.unsplash.com"]
+  script-src: ["'self'", "https://code.jquery.com"]
+  style-src: ["'self'", "https://fonts.googleapis.com"]
